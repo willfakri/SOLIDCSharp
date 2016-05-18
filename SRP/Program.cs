@@ -10,6 +10,7 @@ namespace SRP
     {
         static void Main(string[] args)
         {
+            Produto produto = new Produto(new DAOProduto());
         }
     }
 }

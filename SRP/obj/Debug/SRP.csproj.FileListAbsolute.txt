@@ -1,1 +1,6 @@
 E:\Estudo\CSharp\SOLIDCSharp\SRP\bin\Debug\SRP.exe.config
+E:\Estudo\CSharp\SOLIDCSharp\SRP\bin\Debug\SRP.exe
+E:\Estudo\CSharp\SOLIDCSharp\SRP\bin\Debug\SRP.pdb
+E:\Estudo\CSharp\SOLIDCSharp\SRP\obj\Debug\SRP.csprojResolveAssemblyReference.cache
+E:\Estudo\CSharp\SOLIDCSharp\SRP\obj\Debug\SRP.exe
+E:\Estudo\CSharp\SOLIDCSharp\SRP\obj\Debug\SRP.pdb

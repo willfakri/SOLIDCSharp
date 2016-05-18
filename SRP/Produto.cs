@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 
 namespace SRP
 {
-    class Produto
+    public interface IDAOProduto
     {
-        public int Codigo { get; set; }
+        void Incluir(Produto produto);
 
-        public string Nome { get; set; }
+        void Excluir(int codigoProduto);
 
-        public string Descricao { get; set; }
+        Produto Atualizar(Produto produto);
 
-        public decimal Preco { get; set; }
+        List<Produto> Listar();
+    }
 
+    public class DAOProduto : IDAOProduto
+    {
         public void Incluir(Produto produto)
         {
             //implementacao
@@ -37,5 +40,23 @@ namespace SRP
             //implementacao
             return null;
         }
+    }
+
+    public class Produto
+    {
+        public Produto(IDAOProduto daoProduto)
+        {
+            this.DAOProduto = daoProduto;
+        }
+
+        public int Codigo { get; set; }
+
+        public string Nome { get; set; }
+
+        public string Descricao { get; set; }
+
+        public decimal Preco { get; set; }
+
+        public IDAOProduto DAOProduto;
     }
 }
