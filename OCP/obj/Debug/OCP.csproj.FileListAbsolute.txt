@@ -1,0 +1,6 @@
+E:\Estudo\CSharp\SOLIDCSharp\OCP\bin\Debug\OCP.exe.config
+E:\Estudo\CSharp\SOLIDCSharp\OCP\bin\Debug\OCP.exe
+E:\Estudo\CSharp\SOLIDCSharp\OCP\bin\Debug\OCP.pdb
+E:\Estudo\CSharp\SOLIDCSharp\OCP\obj\Debug\OCP.csprojResolveAssemblyReference.cache
+E:\Estudo\CSharp\SOLIDCSharp\OCP\obj\Debug\OCP.exe
+E:\Estudo\CSharp\SOLIDCSharp\OCP\obj\Debug\OCP.pdb
